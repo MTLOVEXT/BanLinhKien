@@ -1,0 +1,76 @@
+﻿@using CHBHTH.Models;
+@model List<GioHang>
+
+@{
+    ViewBag.Title = "Giỏ Hàng";
+    Layout = "~/Views/Shared/_LayoutClient2.cshtml";
+}
+
+<center>
+    <h2>Giỏ hàng <i class="fa fa-shopping-cart"></i></h2>
+    <br />
+    @if (Model == null || !Model.Any())
+    {
+        <p>Giỏ hàng của bạn đang trống.</p>
+    }
+    else
+    {
+        <table class="table-hover table-bordered divGioHang">
+            <tr>
+                <th>Mã SP</th>
+                <th>Tên SP</th>
+                <th>Ảnh bìa</th>
+                <th>Đơn giá</th>
+                <th>Số lượng</th>
+                <th>Thành tiền</th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr class="font-italic">
+                    <td>@item.iMasp</td>
+                    <td>@item.sTensp</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.sAnhBia)) // Kiểm tra nếu đường dẫn ảnh không trống
+                        {
+                            <img src="@Url.Content(item.sAnhBia)" class="img-responsive" alt="@item.sTensp" width="200" height="150" />
+                        }
+                        else
+                        {
+                            <img src="@Url.Content("~/Content/assets/img/imgError.png")" class="img-responsive" alt="Default Image" width="200" height="150" />
+                        }
+                    </td>
+                    <td>@String.Format("{0:0,0}", item.dDonGia) VNĐ</td>
+                    <td>@item.iSoLuong</td>
+                    <td>@String.Format("{0:0,0}", item.ThanhTien) VNĐ</td>
+                </tr>
+            }
+
+            <tr>
+                <td colspan="6" style="text-align:right">
+                    @Html.ActionLink("Chỉnh sửa giỏ hàng", "SuaGioHang") <br />
+                    <a href="@Url.Action("ThanhToanDonHang", "GioHang")" class="btn btn-primary">Đặt hàng</a>
+
+                </td>
+            </tr>
+        </table>
+    }
+</center>
+
+<style>
+    .divGioHang {
+        border: 2px solid #EEEEEE;
+        margin-left: 0%;
+        font-size: large;
+    }
+
+        .divGioHang td {
+            padding: 40px;
+            border: 2px solid #EEEEEE;
+            text-align: center;
+        }
+
+        .divGioHang th {
+            text-align: center;
+        }
+</style>

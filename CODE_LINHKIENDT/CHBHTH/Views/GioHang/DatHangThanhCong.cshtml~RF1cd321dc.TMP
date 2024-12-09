@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Đặt Hàng Thành Công";
+    Layout = "~/Views/Shared/_LayoutClient2.cshtml";
+}
+
+<h2>Đặt Hàng Thành Công</h2>
+
+<div class="alert alert-success">
+    <strong>Chúc mừng!</strong> Đơn hàng của bạn đã được đặt thành công.
+</div>
+
+<div>
+    <h4>Thông tin đơn hàng:</h4>
+    <ul>
+        <li><strong>Mã đơn hàng:</strong> @ViewBag.MaDonHang</li>
+        <li><strong>Ngày đặt:</strong> @ViewBag.NgayDat</li>
+        <li><strong>Tổng tiền:</strong> @String.Format("{0:C}", ViewBag.TongTien)</li>
+    </ul>
+</div>
+
+<div>
+    <h4>Thông tin vận chuyển:</h4>
+    <p><strong>Địa chỉ nhận hàng:</strong> @ViewBag.DiaChiNhanHang</p>
+    <p><strong>Phương thức thanh toán:</strong> @ViewBag.PhuongThucThanhToan</p>
+</div>
+
+<div>
+    <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Quay lại trang chủ</a>
+</div>

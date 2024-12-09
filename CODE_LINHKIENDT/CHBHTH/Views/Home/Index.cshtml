@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "SHOP ĐIỆN TỬ";
+
+    Layout = "~/Views/Shared/_LayoutClient2.cshtml";
+}
+@using CHBHTH.Models;
+
+
+<br />
+<header class="bg-body py-0">
+    <center>
+        <div class="row">
+            <div class="col-md-16">
+                <img src="~/Images/gia-dng---mua-nhiu-gim-nhiu---gim-them-dn-10_1d3f47bd.jpg" width="95%" />
+            </div>
+        </div>
+    </center>
+</header>
+<br />
+<div class="spnoibat">
+    <center>
+        <div class="row">
+            <div class="col-md-4 p-0">
+                <img src="~/Images/cá-tháng-4-1200x628.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-4 p-0">
+                <img src="~/Images/choang-ngop-do-dien-gia-dung-gia-tot-tren-mudi.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-md-4 p-0">
+                <img src="~/Images/cá-tháng-4-1200x628 (1).jpg" class="img-fluid" alt="" />
+            </div>
+        </div>
+    </center>
+
+</div>
+<br />
+
+@Html.Action("suapartial", "sanpham")
+
+@Html.Action("dauanpartial", "sanpham")
+
+<div>
+    <center>
+        <img class="img-responsive" src="~/Images/anh-mau-banner-thiet-bi-dien-may_033704340.png" width="80%" />
+    </center>
+</div>
+<br />
+
+@Html.Action("raupartial", "sanpham")
+
+

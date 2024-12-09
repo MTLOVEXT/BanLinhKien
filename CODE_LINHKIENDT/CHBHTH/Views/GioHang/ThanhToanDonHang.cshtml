@@ -1,0 +1,98 @@
+﻿@model CHBHTH.Models.DonHang
+@{
+    ViewBag.Title = "Thanh Toán Đơn Hàng";
+    Layout = "~/Views/Shared/_LayoutClient2.cshtml";
+}
+
+<h2>Thanh Toán Đơn Hàng</h2>
+
+<div>
+    <h4>Thông tin tài khoản</h4>
+    <dl class="dl-horizontal">
+        <dt>Tên người dùng:</dt>
+        <dd>@ViewBag.TenNguoiDung</dd>
+        <dt>Email:</dt>
+        <dd>@ViewBag.EmailNguoiDung</dd>
+    </dl>
+</div>
+
+<div>
+    <h4>Sản phẩm trong giỏ hàng</h4>
+    @if (TempData["GioHang"] is List<CHBHTH.Models.GioHang> gioHang && gioHang.Any())
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Tên sản phẩm</th>
+                    <th>Số lượng</th>
+                    <th>Đơn giá</th>
+                    <th>Thành tiền</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in gioHang)
+                {
+                    <tr>
+                        <td>@item.sTensp</td>
+                        <td>@item.iSoLuong</td>
+                        <td>@String.Format("{0:C}", item.dDonGia)</td>
+                        <td>@String.Format("{0:C}", item.iSoLuong * item.dDonGia)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div>
+            <h5>Tổng tiền: @String.Format("{0:C}", ViewBag.TongTien)</h5>
+        </div>
+    }
+    else
+    {
+        <p>Giỏ hàng của bạn đang trống.</p>
+    }
+</div>
+
+<hr />
+
+@using (Html.BeginForm("ThanhToanDonHang", "GioHang", FormMethod.Post, new { id = "form-thanh-toan" }))
+{
+    <div>
+        <h4>Thông tin thanh toán</h4>
+        <div class="form-group">
+            @Html.LabelFor(model => model.DiaChiNhanHang, "Địa chỉ nhận hàng:")
+            @Html.TextBoxFor(model => model.DiaChiNhanHang, new { @class = "form-control", placeholder = "Nhập địa chỉ nhận hàng" })
+            @Html.ValidationMessageFor(model => model.DiaChiNhanHang)
+        </div>
+        <div class="form-group">
+            @Html.Label("Phương thức thanh toán:")
+            @Html.DropDownList("MaTT", (SelectList)ViewBag.MaTT, "Chọn phương thức", new { @class = "form-control", id = "MaTT" })
+        </div>
+    </div>
+
+    <div id="vnpay-button-container" style="display: none;">
+        <button type="button" class="btn btn-primary" id="vnpay-button">Thanh toán bằng VNPAY</button>
+    </div>
+
+    <button type="submit" class="btn btn-success">Đặt Hàng</button>
+    <a href="@Url.Action("GioHang", "GioHang")" class="btn btn-warning">Quay lại giỏ hàng</a>
+}
+
+
+
+<script>
+    document.getElementById("MaTT").addEventListener("change", function () {
+        var paymentMethod = this.value;
+        var vnpayButtonContainer = document.getElementById("vnpay-button-container");
+
+        if (paymentMethod === "2") { // Mã 2: Thanh toán chuyển khoản
+            vnpayButtonContainer.style.display = "block";
+        } else {
+            vnpayButtonContainer.style.display = "none";
+        }
+    });
+
+    document.getElementById("vnpay-button").addEventListener("click", function () {
+        // Redirect tới action xử lý thanh toán VNPAY
+        document.getElementById("form-thanh-toan").action = "/GioHang/ThanhToanVnpay";
+        document.getElementById("form-thanh-toan").submit();
+    });
+</script>

@@ -1,0 +1,130 @@
+﻿using CHBHTH.Areas.Admin.Repositories;
+using CHBHTH.Models;
+using CHBHTH.Repositories;
+using System.Linq;
+using System.Net;
+using System.Web.Mvc;
+
+namespace CHBHTH.Areas.Admin.Controllers
+{
+	public class SanPhamsController : Controller
+	{
+		private readonly ISanPhamRepositoryAdmin _sanPhamRepository;
+
+		// Khởi tạo controller với repository
+		public SanPhamsController(ISanPhamRepositoryAdmin sanPhamRepository)
+		{
+			_sanPhamRepository = sanPhamRepository;
+		}
+
+		// GET: SanPhams
+		public ActionResult Index()
+		{
+			var sanPhams = _sanPhamRepository.GetAllSanPhams();
+			var u = Session["use"] as CHBHTH.Models.TaiKhoan;
+			if (u.PhanQuyen.TenQuyen == "Adminstrator")
+			{
+				return View(sanPhams.OrderByDescending(s => s.MaSP).ToList());
+			}
+			return RedirectPermanent("~/Home/Index");
+		}
+
+		// GET: SanPhams/Details/5
+		public ActionResult Details(int? id)
+		{
+			if (id == null)
+			{
+				return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+			}
+			SanPham sanPham = _sanPhamRepository.GetSanPhamById(id.Value);
+			if (sanPham == null)
+			{
+				return HttpNotFound();
+			}
+			return View(sanPham);
+		}
+
+		// GET: SanPhams/Create
+		public ActionResult Create()
+		{
+			ViewBag.MaLoai = new SelectList(_sanPhamRepository.GetAllSanPhams(), "MaLoai", "TenLoai");
+			ViewBag.MaNCC = new SelectList(_sanPhamRepository.GetAllSanPhams(), "MaNCC", "TenNCC");
+			return View();
+		}
+
+		// POST: SanPhams/Create
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public ActionResult Create([Bind(Include = "MaSP,TenSP,GiaBan,Soluong,MoTa,MaLoai,MaNCC,AnhSP")] SanPham sanPham)
+		{
+			if (ModelState.IsValid)
+			{
+				_sanPhamRepository.AddSanPham(sanPham);
+				_sanPhamRepository.Save();
+				return RedirectToAction("Index");
+			}
+
+			ViewBag.MaLoai = new SelectList(_sanPhamRepository.GetAllSanPhams(), "MaLoai", "TenLoai", sanPham.MaLoai);
+			ViewBag.MaNCC = new SelectList(_sanPhamRepository.GetAllSanPhams(), "MaNCC", "TenNCC", sanPham.MaNCC);
+			return View(sanPham);
+		}
+
+		// GET: SanPhams/Edit/5
+		public ActionResult Edit(int? id)
+		{
+			if (id == null)
+			{
+				return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+			}
+			SanPham sanPham = _sanPhamRepository.GetSanPhamById(id.Value);
+			if (sanPham == null)
+			{
+				return HttpNotFound();
+			}
+			ViewBag.LoaiHangs = new SelectList(_sanPhamRepository.GetAllSanPhams(), "MaLoai", "TenLoai", sanPham.MaLoai);
+			ViewBag.MaNCC = new SelectList(_sanPhamRepository.GetAllSanPhams(), "MaNCC", "TenNCC", sanPham.MaNCC);
+			return View(sanPham);
+		}
+
+		// POST: SanPhams/Edit/5
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public ActionResult Edit([Bind(Include = "MaSP,TenSP,GiaBan,Soluong,MoTa,MaLoai,MaNCC,AnhSP")] SanPham sanPham)
+		{
+			if (ModelState.IsValid)
+			{
+				_sanPhamRepository.UpdateSanPham(sanPham);
+				_sanPhamRepository.Save();
+				return RedirectToAction("Index");
+			}
+			ViewBag.MaLoai = new SelectList(_sanPhamRepository.GetAllSanPhams(), "MaLoai", "TenLoai", sanPham.MaLoai);
+			ViewBag.MaNCC = new SelectList(_sanPhamRepository.GetAllSanPhams(), "MaNCC", "TenNCC", sanPham.MaNCC);
+			return View(sanPham);
+		}
+
+		// GET: SanPhams/Delete/5
+		public ActionResult Delete(int? id)
+		{
+			if (id == null)
+			{
+				return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+			}
+			SanPham sanPham = _sanPhamRepository.GetSanPhamById(id.Value);
+			if (sanPham == null)
+			{
+				return HttpNotFound();
+			}
+			return View(sanPham);
+		}
+
+		// POST: SanPhams/Delete/5
+		[HttpPost, ActionName("Delete")]
+		[ValidateAntiForgeryToken]
+		public ActionResult DeleteConfirmed(int id)
+		{
+			_sanPhamRepository.DeleteSanPham(id);
+			_sanPhamRepository.Save();
+			return RedirectToAction("Index");
+		}
+	}
+}

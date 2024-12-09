@@ -1,0 +1,53 @@
+﻿using CHBHTH.Models;
+using System;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
+using System.Web;
+
+namespace CHBHTH.Areas.Admin.Repositories
+{
+	public class SanPhamRepository : ISanPhamRepository
+	{
+		private readonly QLbanhang _context;
+
+		public SanPhamRepository(QLbanhang context)
+		{
+			_context = context;
+		}
+
+		public IEnumerable<SanPham> GetAllSanPhams()
+		{
+			return _context.SanPhams.Include(s => s.LoaiHang).Include(s => s.NhaCungCap).ToList();
+		}
+
+		public SanPham GetSanPhamById(int id)
+		{
+			return _context.SanPhams.Find(id);
+		}
+
+		public void AddSanPham(SanPham sanPham)
+		{
+			_context.SanPhams.Add(sanPham);
+		}
+
+		public void UpdateSanPham(SanPham sanPham)
+		{
+			_context.Entry(sanPham).State = EntityState.Modified;
+		}
+
+		public void DeleteSanPham(int id)
+		{
+			SanPham sanPham = _context.SanPhams.Find(id);
+			if (sanPham != null)
+			{
+				_context.SanPhams.Remove(sanPham);
+			}
+		}
+
+		public void Save()
+		{
+			_context.SaveChanges();
+		}
+	}
+}

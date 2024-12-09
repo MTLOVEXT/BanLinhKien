@@ -1,0 +1,71 @@
+﻿using System.Collections.Generic;
+using System.Linq;
+using CHBHTH.Models;
+
+namespace CHBHTH.Repositories
+{
+	public class GioHangRepository : IGioHangRepository
+	{
+		private readonly QLbanhang _context;
+
+		public GioHangRepository(QLbanhang context)
+		{
+			_context = context;
+		}
+
+		public List<GioHang> GetGioHangFromSession(object sessionGioHang)
+		{
+			var gioHang = sessionGioHang as List<GioHang>;
+			if (gioHang == null)
+			{
+				gioHang = new List<GioHang>();
+			}
+			return gioHang;
+		}
+
+		public void AddToCart(int productId, object sessionGioHang)
+		{
+			var gioHang = GetGioHangFromSession(sessionGioHang);
+			var product = _context.SanPhams.SingleOrDefault(p => p.MaSP == productId);
+			if (product == null) return;
+
+			var existingItem = gioHang.SingleOrDefault(i => i.iMasp == productId);
+			if (existingItem == null)
+			{
+				gioHang.Add(new GioHang(productId));
+			}
+			else
+			{
+				existingItem.iSoLuong++;
+			}
+		}
+
+		public void UpdateCart(int productId, int quantity, object sessionGioHang)
+		{
+			var gioHang = GetGioHangFromSession(sessionGioHang);
+			var existingItem = gioHang.SingleOrDefault(i => i.iMasp == productId);
+			if (existingItem != null)
+			{
+				existingItem.iSoLuong = quantity;
+			}
+		}
+
+		public void RemoveFromCart(int productId, object sessionGioHang)
+		{
+			var gioHang = GetGioHangFromSession(sessionGioHang);
+			gioHang.RemoveAll(i => i.iMasp == productId);
+		}
+
+		public int GetTotalQuantity(object sessionGioHang)
+		{
+			var gioHang = GetGioHangFromSession(sessionGioHang);
+			return gioHang.Sum(i => i.iSoLuong);
+		}
+
+		public double GetTotalPrice(object sessionGioHang)
+		{
+			var gioHang = GetGioHangFromSession(sessionGioHang);
+			return gioHang.Sum(i => i.ThanhTien);
+		}
+	}
+}

@@ -1,0 +1,52 @@
+﻿using CHBHTH.Models;
+using System.Collections.Generic;
+using System.Data.Entity;
+
+public class DonHangRepository : IDonHangRepository
+{
+	private QLbanhang db;
+
+	public DonHangRepository(QLbanhang context)
+	{
+		db = context;
+	}
+
+	public IEnumerable<DonHang> GetDonHangsByUser(int userId)
+	{
+		return db.DonHangs.Include(d => d.TaiKhoan).Where(d => d.MaNguoiDung == userId).ToList();
+	}
+
+	public DonHang GetDonHangById(int id)
+	{
+		return db.DonHangs.Find(id);
+	}
+
+	public IEnumerable<ChiTietDonHang> GetChiTietDonHangByDon(int donHangId)
+	{
+		return db.ChiTietDonHangs.Include(d => d.SanPham).Where(d => d.MaDon == donHangId).ToList();
+	}
+
+	public void AddDonHang(DonHang donHang)
+	{
+		db.DonHangs.Add(donHang);
+	}
+
+	public void UpdateDonHang(DonHang donHang)
+	{
+		db.Entry(donHang).State = EntityState.Modified;
+	}
+
+	public void DeleteDonHang(int id)
+	{
+		DonHang donHang = db.DonHangs.Find(id);
+		if (donHang != null)
+		{
+			db.DonHangs.Remove(donHang);
+		}
+	}
+
+	public void Save()
+	{
+		db.SaveChanges();
+	}
+}

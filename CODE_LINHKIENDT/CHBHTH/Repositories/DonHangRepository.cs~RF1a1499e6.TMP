@@ -1,0 +1,89 @@
+﻿using CHBHTH.Models;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
+using System.Web.Mvc;
+
+public class DonHangRepository : IDonHangRepository
+{
+	private QLbanhang db;
+
+	public DonHangRepository(QLbanhang context)
+	{
+		db = context;
+	}
+
+	public IEnumerable<DonHang> GetDonHangsByUser(int userId)
+	{
+		return db.DonHangs.Include(d => d.TaiKhoan).Where(d => d.MaNguoiDung == userId).ToList();
+	}
+
+	public DonHang GetDonHangById(int id)
+	{
+		return db.DonHangs.Find(id);
+	}
+
+	public IEnumerable<ChiTietDonHang> GetChiTietDonHangByDon(int donHangId)
+	{
+		return db.ChiTietDonHangs.Include(d => d.SanPham).Where(d => d.MaDon == donHangId).ToList();
+	}
+
+	public void AddDonHang(DonHang donHang)
+	{
+		db.DonHangs.Add(donHang);
+	}
+
+	public void UpdateDonHang(DonHang donHang)
+	{
+		db.Entry(donHang).State = EntityState.Modified;
+	}
+
+	public void DeleteDonHang(int id)
+	{
+		DonHang donHang = db.DonHangs.Find(id);
+		if (donHang != null)
+		{
+			db.DonHangs.Remove(donHang);
+		}
+	}
+
+	public void Save()
+	{
+		db.SaveChanges();
+	}
+
+	public bool ThanhToanDonHang(DonHang donHang, List<GioHang> gioHangs)
+	{
+		using (var transaction = db.Database.BeginTransaction())
+		{
+			try
+			{
+				// Thêm đơn hàng
+				db.DonHangs.Add(donHang);
+				db.SaveChanges();
+
+				// Thêm chi tiết đơn hàng
+				foreach (var item in gioHangs)
+				{
+					var chiTiet = new ChiTietDonHang
+					{
+						MaDon = donHang.MaDon,
+						MaSP = item.iMasp,
+						SoLuong = item.iSoLuong,
+						DonGia = (decimal)item.dDonGia
+					};
+					db.ChiTietDonHangs.Add(chiTiet);
+				}
+
+				db.SaveChanges();
+				transaction.Commit();
+				return true;
+			}
+			catch
+			{
+				transaction.Rollback();
+				return false;
+			}
+		}
+	}
+}

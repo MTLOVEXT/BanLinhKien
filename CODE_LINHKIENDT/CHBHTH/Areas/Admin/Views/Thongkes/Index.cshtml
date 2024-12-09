@@ -1,0 +1,128 @@
+﻿@model IEnumerable<CHBHTH.Models.ThongKes>
+
+@{
+    ViewBag.Title = "Thong kê";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container mt-4">
+    <!-- Title for the Page -->
+    <div class="text-center mb-4">
+        <h2 class="text-danger">Top 5 khách hàng mua hàng nhiều nhất</h2>
+    </div>
+
+    <!-- Table for Top 5 Customers -->
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Tên khách hàng</th>
+                    <th scope="col">Số điện thoại</th>
+                    <th scope="col">Tổng tiền đã mua</th>
+                    <th scope="col">Số lượng đơn hàng</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Tennguoidung</td>
+                        <td>@item.Dienthoai</td>
+                        <td>@String.Format("{0:0,0}", item.Tongtien) VNĐ</td>
+                        <td>@item.Soluong</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Title for the Best-Selling Products Section -->
+    <div class="text-center mt-5 mb-4">
+        <h2 class="text-success">Top 5 sản phẩm bán chạy nhất</h2>
+    </div>
+
+    <!-- Table for Top 5 Best-Selling Products -->
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Tên sản phẩm</th>
+                    <th scope="col">Số lượng đã bán</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in ViewBag.BestSellingProducts)
+                {
+                    <tr>
+                        <td>@product.TenSP</td>
+                        <td>@product.Soluong</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<br />
+
+<!-- Year Selection Form -->
+<form method="get" action="@Url.Action("Index")">
+    <label for="year">Chọn năm:</label>
+    <select id="year" name="year">
+        <option value="">-- Chọn năm --</option>
+        @for (var i = 2020; i <= DateTime.Now.Year; i++)
+        {
+            <option value="@i" @if (i == ViewBag.SelectedYear) { <text> selected</text> }>@i</option>
+        }
+    </select>
+    <button type="submit">Xem</button>
+</form>
+
+<br />
+<hr />
+<br />
+
+<h3>Sản phẩm bán chạy trong năm @ViewBag.SelectedYear:</h3>
+
+@if (ViewBag.ProductsSoldInYear != null && ((List<CHBHTH.Models.SanPham>)ViewBag.ProductsSoldInYear).Any())
+{
+    <table class="table table-bordered">
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Số lượng bán</th>
+        </tr>
+        @foreach (var item in ViewBag.ProductsSoldInYear)
+        {
+            <tr>
+                <td>@item.TenSP</td>
+                <td>@item.Soluong</td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>Không có sản phẩm bán được trong năm này.</p>
+}
+
+<br />
+<!-- Display Best Selling Products -->
+<h3>Sản phẩm bán chạy nhất:</h3>
+@if (ViewBag.ProductsSoldInYear != null && ((List<CHBHTH.Models.SanPham>)ViewBag.ProductsSoldInYear).Any())
+{
+    <table class="table table-bordered">
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Số lượng bán</th>
+        </tr>
+        @foreach (var item in ViewBag.BestSellingProducts)
+        {
+            <tr>
+                <td>@item.TenSP</td>
+                <td>@item.Soluong</td>
+            </tr>
+        }
+    </table>
+}
+
+

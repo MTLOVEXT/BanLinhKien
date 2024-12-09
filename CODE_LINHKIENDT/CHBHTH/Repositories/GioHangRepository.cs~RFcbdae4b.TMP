@@ -1,0 +1,80 @@
+﻿using System.Collections.Generic;
+using System.Linq;
+using CHBHTH.Models;
+
+namespace CHBHTH.Repositories
+{
+	public class GioHangRepository : IGioHangRepository
+	{
+		public List<GioHang> LayGioHang(object sessionGioHang)
+		{
+			return sessionGioHang as List<GioHang> ?? new List<GioHang>();
+		}
+
+		public void ThemGioHang(int productId, object sessionGioHang)
+		{
+			var gioHang = LayGioHang(sessionGioHang);
+			var sp = gioHang.SingleOrDefault(x => x.iMasp == productId);
+
+			if (sp == null)
+			{
+				gioHang.Add(new GioHang(productId));
+			}
+			else
+			{
+				sp.iSoLuong++;
+			}
+
+			SaveGioHangToSession(sessionGioHang, gioHang);
+		}
+
+		public void CapNhatGioHang(int productId, int soLuong, object sessionGioHang)
+		{
+			var gioHang = LayGioHang(sessionGioHang);
+			var sp = gioHang.SingleOrDefault(x => x.iMasp == productId);
+
+			if (sp != null)
+			{
+				if (soLuong > 0)
+				{
+					sp.iSoLuong = soLuong;
+				}
+				else
+				{
+					// Xóa sản phẩm nếu số lượng là 0
+					gioHang.Remove(sp);
+				}
+			}
+
+			SaveGioHangToSession(sessionGioHang, gioHang);
+		}
+
+		public void XoaGioHang(int productId, object sessionGioHang)
+		{
+			var gioHang = LayGioHang(sessionGioHang);
+			gioHang.RemoveAll(x => x.iMasp == productId);
+
+			SaveGioHangToSession(sessionGioHang, gioHang);
+		}
+
+		public int TongSoLuong(object sessionGioHang)
+		{
+			var gioHang = LayGioHang(sessionGioHang);
+			return gioHang.Sum(x => x.iSoLuong);
+		}
+
+		public double TongTien(object sessionGioHang)
+		{
+			var gioHang = LayGioHang(sessionGioHang);
+			return gioHang.Sum(x => x.ThanhTien);
+		}
+
+		private void SaveGioHangToSession(object sessionGioHang, List<GioHang> gioHang)
+		{
+			if (sessionGioHang is System.Web.HttpSessionStateBase session)
+			{
+				session["GioHang"] = gioHang;
+			}
+		}
+	}
+}

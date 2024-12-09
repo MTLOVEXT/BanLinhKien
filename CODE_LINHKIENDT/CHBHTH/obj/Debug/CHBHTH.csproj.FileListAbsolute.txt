@@ -1,0 +1,615 @@
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\CHBHTH.dll.config
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\CHBHTH.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\CHBHTH.pdb
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\csc.exe
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\csc.exe.config
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\csc.rsp
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\csi.exe
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\csi.exe.config
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\csi.rsp
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\Microsoft.Managed.Core.targets
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.AppContext.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Collections.Immutable.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Console.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Globalization.Calendars.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.IO.Compression.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.IO.FileSystem.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Net.Http.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Net.Sockets.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Reflection.Metadata.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.ValueTuple.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Xml.XmlDocument.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Xml.XPath.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\vbc.exe
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\vbc.exe.config
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\vbc.rsp
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\VBCSCompiler.exe
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\roslyn\VBCSCompiler.exe.config
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\Antlr3.Runtime.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\EntityFramework.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\EntityFramework.SqlServer.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\Microsoft.Web.Infrastructure.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\Newtonsoft.Json.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\System.Web.Helpers.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\System.Web.Mvc.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\System.Web.Optimization.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\System.Web.Razor.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\System.Web.WebPages.Deployment.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\System.Web.WebPages.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\System.Web.WebPages.Razor.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\WebGrease.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\EntityFramework.xml
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\EntityFramework.SqlServer.xml
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\System.Web.Helpers.xml
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\System.Web.Mvc.xml
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\System.Web.Optimization.xml
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\System.Web.Razor.xml
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\System.Web.WebPages.xml
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\System.Web.WebPages.Deployment.xml
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\System.Web.WebPages.Razor.xml
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\Newtonsoft.Json.xml
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\Antlr3.Runtime.pdb
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BuiNgocDuy\CHBHTH\CHBHTH\obj\Debug\CHBHTH.csproj.AssemblyReference.cache
+E:\BuiNgocDuy\CHBHTH\CHBHTH\obj\Debug\CHBHTH.csproj.CoreCompileInputs.cache
+E:\BuiNgocDuy\CHBHTH\CHBHTH\obj\Debug\CHBHTH.csproj.CopyComplete
+E:\BuiNgocDuy\CHBHTH\CHBHTH\obj\Debug\CHBHTH.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\obj\Debug\CHBHTH.pdb
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\CKFinder.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\CKFinder.pdb
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\PagedList.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\PagedList.Mvc.dll
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\PagedList.xml
+E:\BuiNgocDuy\CHBHTH\CHBHTH\bin\PagedList.Mvc.xml
+D:\CHBHTH\CHBHTH\bin\CHBHTH.dll.config
+D:\CHBHTH\CHBHTH\bin\CHBHTH.dll
+D:\CHBHTH\CHBHTH\bin\CHBHTH.pdb
+D:\CHBHTH\CHBHTH\bin\roslyn\csc.exe
+D:\CHBHTH\CHBHTH\bin\roslyn\csc.exe.config
+D:\CHBHTH\CHBHTH\bin\roslyn\csc.rsp
+D:\CHBHTH\CHBHTH\bin\roslyn\csi.exe
+D:\CHBHTH\CHBHTH\bin\roslyn\csi.exe.config
+D:\CHBHTH\CHBHTH\bin\roslyn\csi.rsp
+D:\CHBHTH\CHBHTH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CHBHTH\CHBHTH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\Microsoft.Managed.Core.targets
+D:\CHBHTH\CHBHTH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CHBHTH\CHBHTH\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.AppContext.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Collections.Immutable.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Console.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Globalization.Calendars.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.IO.Compression.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.IO.FileSystem.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Net.Http.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Net.Sockets.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Reflection.Metadata.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.ValueTuple.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Xml.XmlDocument.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Xml.XPath.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\CHBHTH\CHBHTH\bin\roslyn\vbc.exe
+D:\CHBHTH\CHBHTH\bin\roslyn\vbc.exe.config
+D:\CHBHTH\CHBHTH\bin\roslyn\vbc.rsp
+D:\CHBHTH\CHBHTH\bin\roslyn\VBCSCompiler.exe
+D:\CHBHTH\CHBHTH\bin\roslyn\VBCSCompiler.exe.config
+D:\CHBHTH\CHBHTH\bin\Antlr3.Runtime.dll
+D:\CHBHTH\CHBHTH\bin\CKFinder.dll
+D:\CHBHTH\CHBHTH\bin\EntityFramework.dll
+D:\CHBHTH\CHBHTH\bin\EntityFramework.SqlServer.dll
+D:\CHBHTH\CHBHTH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CHBHTH\CHBHTH\bin\Microsoft.Web.Infrastructure.dll
+D:\CHBHTH\CHBHTH\bin\Newtonsoft.Json.dll
+D:\CHBHTH\CHBHTH\bin\PagedList.dll
+D:\CHBHTH\CHBHTH\bin\PagedList.Mvc.dll
+D:\CHBHTH\CHBHTH\bin\System.Web.Helpers.dll
+D:\CHBHTH\CHBHTH\bin\System.Web.Mvc.dll
+D:\CHBHTH\CHBHTH\bin\System.Web.Optimization.dll
+D:\CHBHTH\CHBHTH\bin\System.Web.Razor.dll
+D:\CHBHTH\CHBHTH\bin\System.Web.WebPages.Deployment.dll
+D:\CHBHTH\CHBHTH\bin\System.Web.WebPages.dll
+D:\CHBHTH\CHBHTH\bin\System.Web.WebPages.Razor.dll
+D:\CHBHTH\CHBHTH\bin\WebGrease.dll
+D:\CHBHTH\CHBHTH\bin\CKFinder.pdb
+D:\CHBHTH\CHBHTH\bin\EntityFramework.xml
+D:\CHBHTH\CHBHTH\bin\EntityFramework.SqlServer.xml
+D:\CHBHTH\CHBHTH\bin\PagedList.xml
+D:\CHBHTH\CHBHTH\bin\PagedList.Mvc.xml
+D:\CHBHTH\CHBHTH\bin\System.Web.Helpers.xml
+D:\CHBHTH\CHBHTH\bin\System.Web.Mvc.xml
+D:\CHBHTH\CHBHTH\bin\System.Web.Optimization.xml
+D:\CHBHTH\CHBHTH\bin\System.Web.Razor.xml
+D:\CHBHTH\CHBHTH\bin\System.Web.WebPages.xml
+D:\CHBHTH\CHBHTH\bin\System.Web.WebPages.Deployment.xml
+D:\CHBHTH\CHBHTH\bin\System.Web.WebPages.Razor.xml
+D:\CHBHTH\CHBHTH\bin\Newtonsoft.Json.xml
+D:\CHBHTH\CHBHTH\bin\Antlr3.Runtime.pdb
+D:\CHBHTH\CHBHTH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CHBHTH\CHBHTH\obj\Debug\CHBHTH.csproj.AssemblyReference.cache
+D:\CHBHTH\CHBHTH\obj\Debug\CHBHTH.csproj.CoreCompileInputs.cache
+D:\CHBHTH\CHBHTH\obj\Debug\CHBHTH.csproj.CopyComplete
+D:\CHBHTH\CHBHTH\obj\Debug\CHBHTH.dll
+D:\CHBHTH\CHBHTH\obj\Debug\CHBHTH.pdb
+D:\New folder\CHBHTH\CHBHTH\bin\CHBHTH.dll.config
+D:\New folder\CHBHTH\CHBHTH\bin\CHBHTH.dll
+D:\New folder\CHBHTH\CHBHTH\bin\CHBHTH.pdb
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\csc.exe
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\csc.exe.config
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\csc.rsp
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\csi.exe
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\csi.exe.config
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\csi.rsp
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\Microsoft.Managed.Core.targets
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.AppContext.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Collections.Immutable.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Console.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Globalization.Calendars.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.IO.Compression.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.IO.FileSystem.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Net.Http.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Net.Sockets.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Reflection.Metadata.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.ValueTuple.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Xml.XmlDocument.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Xml.XPath.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\vbc.exe
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\vbc.exe.config
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\vbc.rsp
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\VBCSCompiler.exe
+D:\New folder\CHBHTH\CHBHTH\bin\roslyn\VBCSCompiler.exe.config
+D:\New folder\CHBHTH\CHBHTH\bin\Antlr3.Runtime.dll
+D:\New folder\CHBHTH\CHBHTH\bin\CKFinder.dll
+D:\New folder\CHBHTH\CHBHTH\bin\EntityFramework.dll
+D:\New folder\CHBHTH\CHBHTH\bin\EntityFramework.SqlServer.dll
+D:\New folder\CHBHTH\CHBHTH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\New folder\CHBHTH\CHBHTH\bin\Microsoft.Web.Infrastructure.dll
+D:\New folder\CHBHTH\CHBHTH\bin\Newtonsoft.Json.dll
+D:\New folder\CHBHTH\CHBHTH\bin\PagedList.dll
+D:\New folder\CHBHTH\CHBHTH\bin\PagedList.Mvc.dll
+D:\New folder\CHBHTH\CHBHTH\bin\System.Web.Helpers.dll
+D:\New folder\CHBHTH\CHBHTH\bin\System.Web.Mvc.dll
+D:\New folder\CHBHTH\CHBHTH\bin\System.Web.Optimization.dll
+D:\New folder\CHBHTH\CHBHTH\bin\System.Web.Razor.dll
+D:\New folder\CHBHTH\CHBHTH\bin\System.Web.WebPages.Deployment.dll
+D:\New folder\CHBHTH\CHBHTH\bin\System.Web.WebPages.dll
+D:\New folder\CHBHTH\CHBHTH\bin\System.Web.WebPages.Razor.dll
+D:\New folder\CHBHTH\CHBHTH\bin\WebGrease.dll
+D:\New folder\CHBHTH\CHBHTH\bin\CKFinder.pdb
+D:\New folder\CHBHTH\CHBHTH\bin\EntityFramework.xml
+D:\New folder\CHBHTH\CHBHTH\bin\EntityFramework.SqlServer.xml
+D:\New folder\CHBHTH\CHBHTH\bin\PagedList.xml
+D:\New folder\CHBHTH\CHBHTH\bin\PagedList.Mvc.xml
+D:\New folder\CHBHTH\CHBHTH\bin\System.Web.Helpers.xml
+D:\New folder\CHBHTH\CHBHTH\bin\System.Web.Mvc.xml
+D:\New folder\CHBHTH\CHBHTH\bin\System.Web.Optimization.xml
+D:\New folder\CHBHTH\CHBHTH\bin\System.Web.Razor.xml
+D:\New folder\CHBHTH\CHBHTH\bin\System.Web.WebPages.xml
+D:\New folder\CHBHTH\CHBHTH\bin\System.Web.WebPages.Deployment.xml
+D:\New folder\CHBHTH\CHBHTH\bin\System.Web.WebPages.Razor.xml
+D:\New folder\CHBHTH\CHBHTH\bin\Newtonsoft.Json.xml
+D:\New folder\CHBHTH\CHBHTH\bin\Antlr3.Runtime.pdb
+D:\New folder\CHBHTH\CHBHTH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\New folder\CHBHTH\CHBHTH\obj\Debug\CHBHTH.csproj.AssemblyReference.cache
+D:\New folder\CHBHTH\CHBHTH\obj\Debug\CHBHTH.csproj.CoreCompileInputs.cache
+D:\New folder\CHBHTH\CHBHTH\obj\Debug\CHBHTH.csproj.CopyComplete
+D:\New folder\CHBHTH\CHBHTH\obj\Debug\CHBHTH.dll
+D:\New folder\CHBHTH\CHBHTH\obj\Debug\CHBHTH.pdb
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\CHBHTH.dll.config
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\CHBHTH.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\CHBHTH.pdb
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csc.exe
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csc.exe.config
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csc.rsp
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csi.exe
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csi.exe.config
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csi.rsp
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.Managed.Core.targets
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Collections.Immutable.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Reflection.Metadata.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\vbc.exe
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\vbc.exe.config
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\vbc.rsp
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\VBCSCompiler.exe
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\VBCSCompiler.exe.config
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Antlr3.Runtime.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\CKFinder.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\EntityFramework.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\EntityFramework.SqlServer.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Web.Infrastructure.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Newtonsoft.Json.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\PagedList.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\PagedList.Mvc.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Helpers.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Mvc.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Optimization.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Razor.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.Deployment.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.Razor.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\WebGrease.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\CKFinder.pdb
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\EntityFramework.xml
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\EntityFramework.SqlServer.xml
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\PagedList.xml
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\PagedList.Mvc.xml
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Helpers.xml
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Mvc.xml
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Optimization.xml
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Razor.xml
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.xml
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.Deployment.xml
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.Razor.xml
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Newtonsoft.Json.xml
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Antlr3.Runtime.pdb
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.csproj.AssemblyReference.cache
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.csproj.CoreCompileInputs.cache
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.csproj.Up2Date
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.pdb
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Buffers.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Memory.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Numerics.Vectors.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Unity.Abstractions.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Unity.Container.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Unity.Mvc.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\WebActivatorEx.dll
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Unity.Abstractions.pdb
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Unity.Container.pdb
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Unity.Mvc.pdb
+D:\cốc cốc\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Unity.Mvc.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\CHBHTH.dll.config
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\CHBHTH.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\CHBHTH.pdb
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csc.exe
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csc.exe.config
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csc.rsp
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csi.exe
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csi.exe.config
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csi.rsp
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Buffers.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Collections.Immutable.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Memory.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Numerics.Vectors.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Reflection.Metadata.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\vbc.exe
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\vbc.exe.config
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\vbc.rsp
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\VBCSCompiler.exe
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\roslyn\VBCSCompiler.exe.config
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Antlr3.Runtime.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\CKFinder.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\EntityFramework.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\EntityFramework.SqlServer.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Web.Infrastructure.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Newtonsoft.Json.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\PagedList.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\PagedList.Mvc.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Helpers.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Mvc.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Optimization.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Razor.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.Deployment.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.Razor.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Unity.Abstractions.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Unity.Container.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Unity.Mvc.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\WebActivatorEx.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\WebGrease.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\CKFinder.pdb
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\EntityFramework.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\EntityFramework.SqlServer.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Newtonsoft.Json.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\PagedList.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\PagedList.Mvc.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Helpers.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Mvc.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Razor.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.Deployment.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.Razor.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Optimization.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Unity.Abstractions.pdb
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Unity.Container.pdb
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Unity.Mvc.pdb
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Unity.Mvc.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Antlr3.Runtime.pdb
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.csproj.AssemblyReference.cache
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.csproj.CoreCompileInputs.cache
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.csproj.Up2Date
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.pdb
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Threading.Tasks.Extensions.dll
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Workspace\CODE_LINHKIENDT\CODE_LINHKIENDT\CHBHTH\bin\System.Threading.Tasks.Extensions.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\CHBHTH.dll.config
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\CHBHTH.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\CHBHTH.pdb
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csc.exe
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csc.exe.config
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csc.rsp
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csi.exe
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csi.exe.config
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csi.rsp
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Buffers.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Collections.Immutable.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Memory.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Numerics.Vectors.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Reflection.Metadata.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\vbc.exe
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\vbc.exe.config
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\vbc.rsp
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\VBCSCompiler.exe
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\roslyn\VBCSCompiler.exe.config
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Antlr3.Runtime.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\CKFinder.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\EntityFramework.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\EntityFramework.SqlServer.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Web.Infrastructure.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Newtonsoft.Json.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\PagedList.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\PagedList.Mvc.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Threading.Tasks.Extensions.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Helpers.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Mvc.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Optimization.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Razor.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.Deployment.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.Razor.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Unity.Abstractions.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Unity.Container.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Unity.Mvc.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\WebActivatorEx.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\WebGrease.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\CKFinder.pdb
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\EntityFramework.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\EntityFramework.SqlServer.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Newtonsoft.Json.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\PagedList.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\PagedList.Mvc.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Threading.Tasks.Extensions.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Helpers.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Mvc.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Razor.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.Deployment.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.Razor.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Optimization.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Unity.Abstractions.pdb
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Unity.Container.pdb
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Unity.Mvc.pdb
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Unity.Mvc.xml
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\bin\Antlr3.Runtime.pdb
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.csproj.AssemblyReference.cache
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.csproj.CoreCompileInputs.cache
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.csproj.Up2Date
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.dll
+D:\Workspace\C#\WebApplicationDotNet\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.pdb
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\CHBHTH.dll.config
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\CHBHTH.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\CHBHTH.pdb
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csc.exe
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csc.exe.config
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csc.rsp
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csi.exe
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csi.exe.config
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\csi.rsp
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Buffers.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Collections.Immutable.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Memory.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Numerics.Vectors.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Reflection.Metadata.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\vbc.exe
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\vbc.exe.config
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\vbc.rsp
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\VBCSCompiler.exe
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\roslyn\VBCSCompiler.exe.config
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Antlr3.Runtime.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\CKFinder.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\EntityFramework.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\EntityFramework.SqlServer.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Web.Infrastructure.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Newtonsoft.Json.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\PagedList.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\PagedList.Mvc.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Threading.Tasks.Extensions.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Helpers.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Mvc.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Optimization.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Razor.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.Deployment.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.Razor.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Unity.Abstractions.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Unity.Container.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Unity.Mvc.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\WebActivatorEx.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\WebGrease.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\CKFinder.pdb
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\EntityFramework.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\EntityFramework.SqlServer.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Newtonsoft.Json.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\PagedList.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\PagedList.Mvc.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Threading.Tasks.Extensions.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Helpers.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Mvc.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Razor.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.Deployment.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Web.WebPages.Razor.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\System.Web.Optimization.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Unity.Abstractions.pdb
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Unity.Container.pdb
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Unity.Mvc.pdb
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Unity.Mvc.xml
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\bin\Antlr3.Runtime.pdb
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.csproj.AssemblyReference.cache
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.csproj.CoreCompileInputs.cache
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.csproj.Up2Date
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.dll
+D:\Workspace\C#\BanLinhKien\CODE_LINHKIENDT\CHBHTH\obj\Debug\CHBHTH.pdb

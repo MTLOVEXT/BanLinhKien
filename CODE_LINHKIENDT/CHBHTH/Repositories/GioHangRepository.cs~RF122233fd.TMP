@@ -1,0 +1,106 @@
+﻿using System.Collections.Generic;
+using System.Linq;
+using CHBHTH.Models;
+
+namespace CHBHTH.Repositories
+{
+	public class GioHangRepository : IGioHangRepository
+	{
+		public List<GioHang> LayGioHang(object sessionGioHang)
+		{
+			if (sessionGioHang is System.Web.HttpSessionStateBase session)
+			{
+				var gioHang = session["GioHang"] as List<GioHang>;
+				if (gioHang == null)
+				{
+					gioHang = new List<GioHang>(); // Tạo giỏ hàng mới nếu chưa có
+					session["GioHang"] = gioHang;  // Lưu giỏ hàng mới vào session
+				}
+				return gioHang;
+			}
+			return new List<GioHang>(); // Nếu không đúng kiểu session, trả về danh sách rỗng
+		}
+
+
+		public void ThemGioHang(int productId, object sessionGioHang)
+		{
+			var gioHang = LayGioHang(sessionGioHang);
+			var sp = gioHang.SingleOrDefault(x => x.iMasp == productId);
+
+			if (sp == null)
+			{
+				gioHang.Add(new GioHang(productId));
+			}
+			else
+			{
+				sp.iSoLuong++;
+			}
+
+			SaveGioHangToSession(sessionGioHang, gioHang);
+		}
+
+		public bool CapNhatGioHang(int productId, int soLuong, object sessionGioHang)
+		{
+			var gioHang = LayGioHang(sessionGioHang);
+			var sp = gioHang.SingleOrDefault(x => x.iMasp == productId);
+
+			if (sp != null)
+			{
+				if (soLuong > 0)
+				{
+					// Cập nhật số lượng mới
+					sp.iSoLuong = soLuong;
+				}
+				else
+				{
+					// Xóa sản phẩm khỏi giỏ hàng nếu số lượng bằng 0
+					gioHang.Remove(sp);
+				}
+			}
+
+			// Lưu lại giỏ hàng vào session
+			SaveGioHangToSession(sessionGioHang, gioHang);
+
+			// Trả về true nếu giỏ hàng trống sau khi xử lý
+			return gioHang.Any();
+		}
+
+
+		public bool XoaGioHang(int productId, object sessionGioHang)
+		{
+			var gioHang = LayGioHang(sessionGioHang);
+			var sp = gioHang.SingleOrDefault(x => x.iMasp == productId);
+
+			if (sp != null)
+			{
+				gioHang.Remove(sp);
+			}
+
+			SaveGioHangToSession(sessionGioHang, gioHang);
+
+			// Trả về true nếu giỏ hàng trống sau khi xóa
+			return !gioHang.Any();
+		}
+
+		public int TongSoLuong(object sessionGioHang)
+		{
+			var gioHang = LayGioHang(sessionGioHang);
+			return gioHang.Sum(x => x.iSoLuong);
+		}
+
+		public double TongTien(object sessionGioHang)
+		{
+			var gioHang = LayGioHang(sessionGioHang);
+			return gioHang.Sum(x => x.ThanhTien);
+		}
+
+		private void SaveGioHangToSession(object sessionGioHang, List<GioHang> gioHang)
+		{
+			if (sessionGioHang is System.Web.HttpSessionStateBase session)
+			{
+				session["GioHang"] = gioHang; // Cập nhật giỏ hàng vào session
+			}
+		}
+
+	}
+}

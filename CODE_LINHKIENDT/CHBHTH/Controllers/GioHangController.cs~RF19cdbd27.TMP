@@ -1,0 +1,142 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web.Mvc;
+using CHBHTH.Models;
+using CHBHTH.Repositories;
+
+namespace CHBHTH.Controllers
+{
+	public class GioHangController : Controller
+	{
+		private readonly IGioHangRepository _gioHangRepository;
+		private QLbanhang db = new QLbanhang();
+
+		public GioHangController()
+		{
+			_gioHangRepository = new GioHangRepository();
+		}
+
+		private List<GioHang> LayGioHang()
+		{
+			return _gioHangRepository.LayGioHang(Session);
+		}
+
+		public ActionResult ThemGioHang(int iMasp, string strURL)
+		{
+			var sp = new QLbanhang().SanPhams.SingleOrDefault(n => n.MaSP == iMasp);
+			if (sp == null)
+			{
+				return HttpNotFound("Sản phẩm không tồn tại.");
+			}
+
+			_gioHangRepository.ThemGioHang(iMasp, Session);
+			return Redirect(strURL);
+		}
+
+		public ActionResult CapNhatGioHang(int iMaSP, FormCollection f)
+		{
+			if (!int.TryParse(f["txtSoLuong"], out int soLuongMoi) || soLuongMoi < 0)
+			{
+				return new HttpStatusCodeResult(400, "Số lượng không hợp lệ.");
+			}
+
+			bool gioHangConSanPham = _gioHangRepository.CapNhatGioHang(iMaSP, soLuongMoi, Session);
+
+			if (!gioHangConSanPham)
+			{
+				return RedirectToAction("Index", "Home");
+			}
+
+			return RedirectToAction("GioHang");
+		}
+
+		public ActionResult XoaGioHang(int iMaSP)
+		{
+			_gioHangRepository.XoaGioHang(iMaSP, Session);
+			return RedirectToAction("GioHang");
+		}
+
+		public ActionResult GioHang()
+		{
+			var gioHang = LayGioHang();
+			if (!gioHang.Any())
+			{
+				ViewBag.Message = "Giỏ hàng của bạn hiện đang trống.";
+			}
+			return View(gioHang);
+		}
+
+		public ActionResult GioHangPartial()
+		{
+			ViewBag.TongSoLuong = _gioHangRepository.TongSoLuong(Session);
+			ViewBag.TongTien = _gioHangRepository.TongTien(Session);
+			return PartialView();
+		}
+
+		public ActionResult SuaGioHang()
+		{
+			if (Session["GioHang"] == null)
+			{
+				return RedirectToAction("Index", "Home");
+			}
+
+			return View(LayGioHang());
+		}
+
+		[HttpPost]
+		public ActionResult ThanhToanDonHang(FormCollection form)
+		{
+			// Kiểm tra đăng nhập
+			if (Session["use"] == null || string.IsNullOrEmpty(Session["use"].ToString()))
+			{
+				return RedirectToAction("Dangnhap", "User");
+			}
+
+			// Kiểm tra giỏ hàng
+			var gioHang = LayGioHang();
+			if (gioHang == null || !gioHang.Any())
+			{
+				return RedirectToAction("Index", "Home");
+			}
+			try
+			{
+				// Lấy dữ liệu từ form
+				string userId = form["MaNguoidung"];
+				string address = form["DiaChiNhanHang"];
+				int paymentMethod = int.Parse(form["MaTT"]);
+
+				// Khởi tạo đối tượng đơn hàng
+				DonHang newOrder = new DonHang
+				{
+					MaNguoiDung = userId,
+					DiaChiNhanHang = address,
+					NgayDat = DateTime.Now,
+					ThanhToan = paymentMethod,
+					TongTien = Convert.ToDecimal(ViewBag.tongtien) // Lấy tổng tiền từ ViewBag
+				};
+
+				// Sử dụng repository để xử lý thanh toán
+				bool result = _gioHangRepository.ThanhToanDonHang(newOrder);
+
+				if (result)
+				{
+					// Thành công
+					return RedirectToAction("DatHangThanhCong");
+				}
+				else
+				{
+					// Thất bại
+					ModelState.AddModelError("", "Đã xảy ra lỗi khi xử lý thanh toán.");
+				}
+			}
+			catch (Exception ex)
+			{
+				// Xử lý lỗi và hiển thị thông báo
+				ModelState.AddModelError("", "Lỗi: " + ex.Message);
+			}
+
+			return View();
+		}
+	}
+}
