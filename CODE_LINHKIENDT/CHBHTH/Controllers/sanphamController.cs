@@ -28,7 +28,7 @@ namespace CHBHTH.Controllers
 
         public ActionResult suapartial()
         {
-            int maLoai = 1; // Mã loại cần lấy
+            int maLoai = 1; // Mã Điện máy
             string tenLoaiHang = _sanPhamRepository.GetTenLoaiHang(maLoai); // Lấy tên loại hàng
             ViewBag.TenLoaiHang = tenLoaiHang; // Truyền vào ViewBag
 
@@ -38,7 +38,7 @@ namespace CHBHTH.Controllers
 
         public ActionResult raupartial()
         {
-            int maLoai = 5; // Mã loại cần lấy
+            int maLoai = 5; // Mã điện thoại
             string tenLoaiHang = _sanPhamRepository.GetTenLoaiHang(maLoai); // Lấy tên loại hàng
             ViewBag.TenLoaiHang = tenLoaiHang; // Truyền vào ViewBag
             var ip = _sanPhamRepository.GetByLoaiHang(maLoai, 4);
@@ -47,7 +47,7 @@ namespace CHBHTH.Controllers
 
         public ActionResult dauanpartial()  
         {
-            int maLoai = 6; // Mã loại cần lấy
+            int maLoai = 6; // Mã Hàng mới 
             string tenLoaiHang = _sanPhamRepository.GetTenLoaiHang(maLoai); // Lấy tên loại hàng
             ViewBag.TenLoaiHang = tenLoaiHang; // Truyền vào ViewBag
             var ip = _sanPhamRepository.GetByLoaiHang(maLoai, 4);

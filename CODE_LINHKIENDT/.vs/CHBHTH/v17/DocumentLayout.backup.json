@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|d:\\workspace\\c#\\banlinhkien\\code_linhkiendt\\chbhth\\views\\shared\\_layoutclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\views\\shared\\_layoutclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|d:\\workspace\\c#\\banlinhkien\\code_linhkiendt\\chbhth\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\chbhth\\views\\shared\\_layoutclient2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\views\\shared\\_layoutclient2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\chbhth\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|d:\\workspace\\c#\\banlinhkien\\code_linhkiendt\\chbhth\\views\\shared\\_layoutclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\views\\shared\\_layoutclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\chbhth\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\chbhth\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,25 +42,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "sanphamController.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Controllers\\sanphamController.cs",
+              "RelativeDocumentMoniker": "CHBHTH\\Controllers\\sanphamController.cs",
+              "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Controllers\\sanphamController.cs",
+              "RelativeToolTip": "CHBHTH\\Controllers\\sanphamController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAADwvywAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T08:24:32.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_LayoutAdmin.cshtml",
               "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeDocumentMoniker": "CHBHTH\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
               "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeToolTip": "CHBHTH\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T16:18:19.733Z"
+              "WhenOpened": "2024-12-09T16:18:19.733Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_LayoutClient.cshtml",
               "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Views\\Shared\\_LayoutClient.cshtml",
               "RelativeDocumentMoniker": "CHBHTH\\Views\\Shared\\_LayoutClient.cshtml",
               "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Views\\Shared\\_LayoutClient.cshtml",
               "RelativeToolTip": "CHBHTH\\Views\\Shared\\_LayoutClient.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-09T16:17:03.346Z",
               "EditorCaption": ""
@@ -73,21 +87,9 @@
               "RelativeDocumentMoniker": "CHBHTH\\Views\\Shared\\_LayoutClient2.cshtml",
               "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Views\\Shared\\_LayoutClient2.cshtml",
               "RelativeToolTip": "CHBHTH\\Views\\Shared\\_LayoutClient2.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwFgAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T16:17:02.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Web.config",
-              "RelativeDocumentMoniker": "CHBHTH\\Web.config",
-              "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Web.config",
-              "RelativeToolTip": "CHBHTH\\Web.config",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-04T22:41:21.216Z",
+              "WhenOpened": "2024-12-09T16:17:02.279Z",
               "EditorCaption": ""
             }
           ]
