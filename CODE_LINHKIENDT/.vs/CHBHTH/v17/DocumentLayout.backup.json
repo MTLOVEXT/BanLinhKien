@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|d:\\workspace\\c#\\banlinhkien\\code_linhkiendt\\chbhth\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|d:\\workspace\\c#\\banlinhkien\\code_linhkiendt\\chbhth\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\chbhth\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -43,19 +47,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GioHangController.cs",
-              "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Controllers\\GioHangController.cs",
-              "RelativeDocumentMoniker": "CHBHTH\\Controllers\\GioHangController.cs",
-              "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Controllers\\GioHangController.cs",
-              "RelativeToolTip": "CHBHTH\\Controllers\\GioHangController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAsAAAAsAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CHBHTH\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CHBHTH\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T08:46:12.11Z",
+              "WhenOpened": "2024-12-11T10:30:53.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GioHangController.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Controllers\\GioHangController.cs",
+              "RelativeDocumentMoniker": "CHBHTH\\Controllers\\GioHangController.cs",
+              "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Controllers\\GioHangController.cs",
+              "RelativeToolTip": "CHBHTH\\Controllers\\GioHangController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwBsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T08:46:12.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GioHangRepository.cs",
               "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Repositories\\GioHangRepository.cs",
               "RelativeDocumentMoniker": "CHBHTH\\Repositories\\GioHangRepository.cs",
@@ -67,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "VnpayService.cs",
               "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Repositories\\VnpayService.cs",
               "RelativeDocumentMoniker": "CHBHTH\\Repositories\\VnpayService.cs",
@@ -79,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IVNPayService.cs",
               "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Repositories\\IVNPayService.cs",
               "RelativeDocumentMoniker": "CHBHTH\\Repositories\\IVNPayService.cs",
