@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "CHBHTH\\Controllers\\GioHangController.cs",
               "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Controllers\\GioHangController.cs",
               "RelativeToolTip": "CHBHTH\\Controllers\\GioHangController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T08:46:12.11Z",
               "EditorCaption": ""
@@ -75,7 +75,8 @@
               "RelativeToolTip": "CHBHTH\\Repositories\\VnpayService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T08:46:12.125Z"
+              "WhenOpened": "2024-12-10T08:46:12.125Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
