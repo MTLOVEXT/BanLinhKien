@@ -3,7 +3,35 @@
   "WorkspaceRootPath": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|d:\\workspace\\c#\\banlinhkien\\code_linhkiendt\\chbhth\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|d:\\workspace\\c#\\banlinhkien\\code_linhkiendt\\chbhth\\models\\qlbanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\models\\qlbanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|d:\\workspace\\c#\\banlinhkien\\code_linhkiendt\\chbhth\\areas\\admin\\repositories\\chitietdonhangrepositoryadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\areas\\admin\\repositories\\chitietdonhangrepositoryadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|d:\\workspace\\c#\\banlinhkien\\code_linhkiendt\\chbhth\\areas\\admin\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\areas\\admin\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\chbhth\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|d:\\workspace\\c#\\banlinhkien\\code_linhkiendt\\chbhth\\areas\\admin\\controllers\\phanquyenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\areas\\admin\\controllers\\phanquyenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|d:\\workspace\\c#\\banlinhkien\\code_linhkiendt\\chbhth\\areas\\admin\\repositories\\sanphamrepositoryadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\areas\\admin\\repositories\\sanphamrepositoryadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|d:\\workspace\\c#\\banlinhkien\\code_linhkiendt\\chbhth\\repositories\\giohangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\repositories\\giohangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\chbhth\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -13,14 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\chbhth\\repositories\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\repositories\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\chbhth\\repositories\\giohangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\repositories\\giohangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\chbhth\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{617EC3CF-AD6E-454D-AFD7-CD2C748D871C}|CHBHTH\\CHBHTH.csproj|solutionrelative:chbhth\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,45 +67,110 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "QLbanhang.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Models\\QLbanhang.cs",
+              "RelativeDocumentMoniker": "CHBHTH\\Models\\QLbanhang.cs",
+              "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Models\\QLbanhang.cs",
+              "RelativeToolTip": "CHBHTH\\Models\\QLbanhang.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T00:16:55.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PhanQuyensController.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Areas\\Admin\\Controllers\\PhanQuyensController.cs",
+              "RelativeDocumentMoniker": "CHBHTH\\Areas\\Admin\\Controllers\\PhanQuyensController.cs",
+              "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Areas\\Admin\\Controllers\\PhanQuyensController.cs",
+              "RelativeToolTip": "CHBHTH\\Areas\\Admin\\Controllers\\PhanQuyensController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T00:11:03.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChiTietDonHangRepositoryAdmin.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Areas\\Admin\\Repositories\\ChiTietDonHangRepositoryAdmin.cs",
+              "RelativeDocumentMoniker": "CHBHTH\\Areas\\Admin\\Repositories\\ChiTietDonHangRepositoryAdmin.cs",
+              "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Areas\\Admin\\Repositories\\ChiTietDonHangRepositoryAdmin.cs",
+              "RelativeToolTip": "CHBHTH\\Areas\\Admin\\Repositories\\ChiTietDonHangRepositoryAdmin.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T00:05:48.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SanPhamRepositoryAdmin.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Areas\\Admin\\Repositories\\SanPhamRepositoryAdmin.cs",
+              "RelativeDocumentMoniker": "CHBHTH\\Areas\\Admin\\Repositories\\SanPhamRepositoryAdmin.cs",
+              "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Areas\\Admin\\Repositories\\SanPhamRepositoryAdmin.cs",
+              "RelativeToolTip": "CHBHTH\\Areas\\Admin\\Repositories\\SanPhamRepositoryAdmin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T23:19:22.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SanPhamsController.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Areas\\Admin\\Controllers\\SanPhamsController.cs",
+              "RelativeDocumentMoniker": "CHBHTH\\Areas\\Admin\\Controllers\\SanPhamsController.cs",
+              "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Areas\\Admin\\Controllers\\SanPhamsController.cs",
+              "RelativeToolTip": "CHBHTH\\Areas\\Admin\\Controllers\\SanPhamsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wBUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T23:19:11.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "CHBHTH\\Controllers\\UserController.cs",
               "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Controllers\\UserController.cs",
               "RelativeToolTip": "CHBHTH\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBMAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwFAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T10:30:53.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "GioHangController.cs",
               "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Controllers\\GioHangController.cs",
               "RelativeDocumentMoniker": "CHBHTH\\Controllers\\GioHangController.cs",
               "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Controllers\\GioHangController.cs",
               "RelativeToolTip": "CHBHTH\\Controllers\\GioHangController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAwBsAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAcwHwAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T08:46:12.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "GioHangRepository.cs",
               "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Repositories\\GioHangRepository.cs",
               "RelativeDocumentMoniker": "CHBHTH\\Repositories\\GioHangRepository.cs",
               "ToolTip": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Repositories\\GioHangRepository.cs",
               "RelativeToolTip": "CHBHTH\\Repositories\\GioHangRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAmwJ0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T08:48:13.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "VnpayService.cs",
               "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Repositories\\VnpayService.cs",
               "RelativeDocumentMoniker": "CHBHTH\\Repositories\\VnpayService.cs",
@@ -98,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "IVNPayService.cs",
               "DocumentMoniker": "D:\\Workspace\\C#\\BanLinhKien\\CODE_LINHKIENDT\\CHBHTH\\Repositories\\IVNPayService.cs",
               "RelativeDocumentMoniker": "CHBHTH\\Repositories\\IVNPayService.cs",

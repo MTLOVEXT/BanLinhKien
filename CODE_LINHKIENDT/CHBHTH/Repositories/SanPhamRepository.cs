@@ -15,12 +15,18 @@ namespace CHBHTH.Repositories
 			_context = context;
 		}
 
-		public IEnumerable<SanPham> GetAll()
-		{
-			return _context.SanPhams.Include(s => s.LoaiHang).Include(s => s.NhaCungCap).ToList();
-		}
+        public IEnumerable<SanPham> GetAll()
+        {
+            // Chỉ lấy các sản phẩm có số lượng lớn hơn 0
+            return _context.SanPhams
+                .Include(s => s.LoaiHang)
+                .Include(s => s.NhaCungCap)
+                .Where(s => s.Soluong > 0) // Điều kiện lọc sản phẩm
+                .ToList();
+        }
 
-		public IEnumerable<SanPham> GetByLoaiHang(int maLoai, int limit = 0)
+
+        public IEnumerable<SanPham> GetByLoaiHang(int maLoai, int limit = 0)
 		{
 			var query = _context.SanPhams.Where(s => s.MaLoai == maLoai);
 			return limit > 0 ? query.Take(limit).ToList() : query.ToList();

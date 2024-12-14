@@ -41,7 +41,7 @@ namespace CHBHTH.Repositories
 			if (sp == null)
 			{
 				var sanPham = GetProductById(productId);
-				if (sanPham != null)
+				if (sanPham != null && sanPham.Soluong > 0)
 				{
 					gioHang.Add(new GioHang(sanPham.MaSP)
 					{
@@ -147,5 +147,29 @@ namespace CHBHTH.Repositories
 			return (decimal)gioHang.Sum(item => item.ThanhTien);
 		}
 
-	}
+        public string KiemTraSoLuongSanPham(int productId, int soLuongCanMua, object sessionGioHang)
+        {
+            var gioHang = LayGioHang(sessionGioHang); // Lấy giỏ hàng từ session
+            var spTrongGio = gioHang.FirstOrDefault(x => x.iMasp == productId); // Tìm sản phẩm trong giỏ hàng
+            var sanPham = GetProductById(productId); // Lấy thông tin sản phẩm từ kho
+
+            if (sanPham == null)
+            {
+                return "Sản phẩm không tồn tại.";
+            }
+
+            int soLuongTrongKho = (int)sanPham.Soluong;
+			int soLuongDangCoTrongGio = spTrongGio?.iSoLuong ?? 0; // Số lượng hiện tại trong giỏ hàng
+
+            // Kiểm tra nếu số lượng yêu cầu vượt quá số lượng tồn kho
+            if (soLuongCanMua + soLuongDangCoTrongGio > soLuongTrongKho )
+            {
+                return $"Sản phẩm cần mua vượt quá số lượng tồn kho. Hiện còn lại {soLuongTrongKho} sản phẩm trong kho.";
+            }
+
+            return "Số lượng hợp lệ.";
+        }
+
+
+    }
 }

@@ -15,45 +15,57 @@
     }
     else
     {
-        <table class="table-hover table-bordered divGioHang">
-            <tr>
-                <th>Mã SP</th>
-                <th>Tên SP</th>
-                <th>Ảnh bìa</th>
-                <th>Đơn giá</th>
-                <th>Số lượng</th>
-                <th>Thành tiền</th>
-            </tr>
+<table class="table-hover table-bordered divGioHang">
+    <tr>
+        <th>Mã SP</th>
+        <th>Tên SP</th>
+        <th>Ảnh bìa</th>
+        <th>Đơn giá</th>
+        <th>Số lượng</th>
+        <th>Thành tiền</th>
+    </tr>
 
-            @foreach (var item in Model)
-            {
-                <tr class="font-italic">
-                    <td>@item.iMasp</td>
-                    <td>@item.sTensp</td>
-                    <td>
-                        @if (!string.IsNullOrEmpty(item.sAnhBia)) // Kiểm tra nếu đường dẫn ảnh không trống
-                        {
-                            <img src="@Url.Content(item.sAnhBia)" class="img-responsive" alt="@item.sTensp" width="200" height="150" />
-                        }
-                        else
-                        {
-                            <img src="@Url.Content("~/Content/assets/img/imgError.png")" class="img-responsive" alt="Default Image" width="200" height="150" />
-                        }
-                    </td>
-                    <td>@String.Format("{0:0,0}", item.dDonGia) VNĐ</td>
-                    <td>@item.iSoLuong</td>
-                    <td>@String.Format("{0:0,0}", item.ThanhTien) VNĐ</td>
-                </tr>
-            }
+    @foreach (var item in Model)
+    {
+        <tr class="font-italic">
+            <td>@item.iMasp</td>
+            <td>@item.sTensp</td>
+            <td>
+                @if (!string.IsNullOrEmpty(item.sAnhBia)) // Kiểm tra nếu đường dẫn ảnh không trống
+                {
+                    <img src="@Url.Content(item.sAnhBia)" class="img-responsive" alt="@item.sTensp" width="200" height="150" />
+                }
+                else
+                {
+                    <img src="@Url.Content("~/Content/assets/img/imgError.png")" class="img-responsive" alt="Default Image" width="200" height="150" />
+                }
+            </td>
+            <td>@String.Format("{0:0,0}", item.dDonGia) VNĐ</td>
+            <td>@item.iSoLuong</td>
+            <td>@String.Format("{0:0,0}", item.ThanhTien) VNĐ</td>
+        </tr>
+    }
+    @if (ViewBag.ErrorMessages != null)
+    {
+        <div class="alert alert-danger">
+            <ul>
+                @foreach (var error in ViewBag.ErrorMessages)
+                {
+                    <li>@error</li>
+                }
+            </ul>
+        </div>
+    }
 
-            <tr>
-                <td colspan="6" style="text-align:right">
-                    @Html.ActionLink("Chỉnh sửa giỏ hàng", "SuaGioHang") <br />
-                    <a href="@Url.Action("ThanhToanDonHang", "GioHang")" class="btn btn-primary">Đặt hàng</a>
 
-                </td>
-            </tr>
-        </table>
+    <tr>
+        <td colspan="6" style="text-align:right">
+            @Html.ActionLink("Chỉnh sửa giỏ hàng", "SuaGioHang") <br />
+            <a href="@Url.Action("ThanhToanDonHang", "GioHang")" class="btn btn-primary">Đặt hàng</a>
+
+        </td>
+    </tr>
+</table>
     }
 </center>
 

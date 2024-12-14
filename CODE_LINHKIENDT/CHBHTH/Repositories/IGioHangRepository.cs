@@ -16,6 +16,7 @@ namespace CHBHTH.Repositories
 
 		//Thanh Toán
 		decimal TongTien(HttpSessionStateBase session);
+		string KiemTraSoLuongSanPham(int productId, int soLuongCanMua, object sessionGioHang);
 
 	}
 }

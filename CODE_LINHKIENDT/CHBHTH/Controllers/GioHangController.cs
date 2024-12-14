@@ -97,56 +97,74 @@ namespace CHBHTH.Controllers
 			return View(LayGioHang());
 		}
 
-		[HttpGet]
-		public ActionResult ThanhToanDonHang()
-		{
-			// Lấy thông tin phương thức thanh toán và tài khoản
-			ViewBag.MaTT = new SelectList(new[]
-			{
-				new { MaTT = 1, TenPT = "Thanh toán tiền mặt" },
-				new { MaTT = 2, TenPT = "Thanh toán chuyển khoản" }
-			}, "MaTT", "TenPT", 1);
+        public ActionResult ThanhToanDonHang()
+        {
+            // Lấy thông tin phương thức thanh toán và tài khoản
+            ViewBag.MaTT = new SelectList(new[]
+            {
+        new { MaTT = 1, TenPT = "Thanh toán tiền mặt" },
+        new { MaTT = 2, TenPT = "Thanh toán chuyển khoản" }
+    }, "MaTT", "TenPT", 1);
 
-			ViewBag.MaNguoiDung = new SelectList(
-				_taiKhoanRepository.GetAllTaiKhoans(), "MaNguoiDung", "HoTen"
-			);
+            ViewBag.MaNguoiDung = new SelectList(
+                _taiKhoanRepository.GetAllTaiKhoans(), "MaNguoiDung", "HoTen"
+            );
 
-			// Kiểm tra đăng nhập
-			var user = _taiKhoanRepository.GetNguoiDungBySession(Session["use"]);
-			if (user == null)
-			{
-				return RedirectToAction("DangNhap", "User");
-			}
+            // Kiểm tra đăng nhập
+            var user = _taiKhoanRepository.GetNguoiDungBySession(Session["use"]);
+            if (user == null)
+            {
+                return RedirectToAction("DangNhap", "User");
+            }
 
-			// Lưu thông tin người dùng vào ViewBag
-			ViewBag.TenNguoiDung = user.HoTen;
-			ViewBag.EmailNguoiDung = user.Email;
+            // Lưu thông tin người dùng vào ViewBag
+            ViewBag.TenNguoiDung = user.HoTen;
+            ViewBag.EmailNguoiDung = user.Email;
 
-			// Kiểm tra giỏ hàng
-			var gioHang = _gioHangRepository.LayGioHang(Session);
-			if (!gioHang.Any())
-			{
-				return RedirectToAction("Index", "Home");
-			}
+            // Kiểm tra giỏ hàng
+            var gioHang = _gioHangRepository.LayGioHang(Session);
+            if (!gioHang.Any())
+            {
+                return RedirectToAction("Index", "Home");
+            }
 
-			// Tính tổng tiền
-			var tongTien = _gioHangRepository.TongTien(Session);
-			ViewBag.TongTien = tongTien;
+            // Kiểm tra số lượng sản phẩm
+            var errors = new List<string>();
+            foreach (var item in gioHang)
+            {
+                string message = _gioHangRepository.KiemTraSoLuongSanPham(item.iMasp, item.iSoLuong, Session);
+                if (message != "Số lượng hợp lệ.")
+                {
+                    errors.Add(message); // Thêm lỗi vào danh sách
+                }
+            }
 
-			// Lưu giỏ hàng vào TempData
-			TempData["GioHang"] = gioHang;
+            // Nếu có lỗi, hiển thị lại View với thông báo lỗi
+            if (errors.Any())
+            {
+                ViewBag.ErrorMessages = errors;
+                return View("GioHang", gioHang); // Hiển thị lại giỏ hàng với thông báo lỗi
+            }
 
-			// Chuẩn bị đơn hàng để hiển thị trên view
-			var donHang = new DonHang
-			{
-				MaNguoiDung = user.MaNguoiDung,
-				NgayDat = DateTime.Now
-			};
+            // Tính tổng tiền
+            var tongTien = _gioHangRepository.TongTien(Session);
+            ViewBag.TongTien = tongTien;
 
-			return View(donHang);
-		}
+            // Lưu giỏ hàng vào TempData
+            TempData["GioHang"] = gioHang;
 
-		[HttpPost]
+            // Chuẩn bị đơn hàng để hiển thị trên view
+            var donHang = new DonHang
+            {
+                MaNguoiDung = user.MaNguoiDung,
+                NgayDat = DateTime.Now
+            };
+
+            return View(donHang);
+        }
+
+
+        [HttpPost]
 		public ActionResult ThanhToanDonHang(DonHang donHang, FormCollection form)
 		{
 			try
